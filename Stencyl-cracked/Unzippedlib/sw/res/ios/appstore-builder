@@ -1,0 +1,29 @@
+#!/bin/sh
+
+NAME="$1"
+CERTPASSWORD="$2";
+PNAME="$3"
+BETAREPORTS="$4"
+CERTLOCATION="$PWD/Cert.p12"
+PROVISIONPROFILE="$PWD/AppStore.mobileprovision"
+
+KEYCHAINLOCATION="$PWD/stencylios.keychain"
+APPLOCATION="$PWD/DerivedData/Build/Products/Release-iphoneos/$PNAME.app"
+IPALOCATION="$PWD/$NAME.ipa"
+
+rm -f "$HOME/Library/MobileDevice/Provisioning Profiles/*"
+cp "$PROVISIONPROFILE" "$HOME/Library/MobileDevice/Provisioning Profiles/"
+
+security create-keychain -p "$CERTPASSWORD" "$KEYCHAINLOCATION"
+security unlock-keychain -p "$CERTPASSWORD" "$KEYCHAINLOCATION"
+security import "$CERTLOCATION" -P "$CERTPASSWORD" -k "$KEYCHAINLOCATION" -T /usr/bin/codesign
+PROFILENAME=`security find-identity -p codesigning -v "$KEYCHAINLOCATION" | sed -n 's/\(.*\)\"\(.*\)\"\(.*\)/\2/p'`
+echo $PROFILENAME
+
+if [ "$BETAREPORTS" = "true" ]; then
+	./PackageApplication -v "$APPLOCATION" -o "$IPALOCATION" --sign "$PROFILENAME" --embed "$PROVISIONPROFILE" --betareports
+else
+	./PackageApplication -v "$APPLOCATION" -o "$IPALOCATION" --sign "$PROFILENAME" --embed "$PROVISIONPROFILE"
+fi
+
+security delete-keychain "$KEYCHAINLOCATION"

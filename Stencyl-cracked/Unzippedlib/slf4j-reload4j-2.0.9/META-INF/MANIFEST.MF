@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Build-Jdk-Spec: 20
+Bundle-Description: SLF4J Reload4j Provider
+Bundle-DocURL: http://reload4j.qos.ch
+Bundle-License: http://www.opensource.org/licenses/mit-license.php
+Bundle-ManifestVersion: 2
+Bundle-Name: SLF4J Reload4j Provider
+Bundle-SymbolicName: slf4j.reload4j
+Bundle-Vendor: SLF4J.ORG
+Bundle-Version: 2.0.9
+Export-Package: org.slf4j.reload4j;version="2.0.9";uses:="org.slf4j,org.
+ slf4j.event,org.slf4j.helpers,org.slf4j.spi"
+Implementation-Title: slf4j-reload4j
+Implementation-Version: 2.0.9
+Import-Package: org.apache.log4j;version="[1.2,2)",org.apache.log4j.spi;
+ version="[1.2,2)",org.slf4j;version="[2.0,3)",org.slf4j.event;version="
+ [2.0,3)",org.slf4j.helpers;version="[2.0,3)",org.slf4j.spi;version="[2.
+ 0,3)"
+Multi-Release: true
+Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+Provide-Capability: osgi.service;objectClass:List<String>="org.slf4j.spi
+ .SLF4JServiceProvider";type=reload4j;effective:=active,osgi.serviceload
+ er;osgi.serviceloader="org.slf4j.spi.SLF4JServiceProvider";register:="o
+ rg.slf4j.reload4j.Reload4jServiceProvider";type=reload4j
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.service
+ loader.registrar)(version>=1.0.0)(!(version>=2.0.0)))",osgi.ee;filter:=
+ "(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+X-Compile-Source-JDK: 8
+X-Compile-Target-JDK: 8
+

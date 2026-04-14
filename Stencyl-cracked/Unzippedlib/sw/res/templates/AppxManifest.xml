@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="[APP_NAME]"
+            Publisher="CN=stencylcert"
+            Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>[APP_NAME]</DisplayName>
+    <PublisherDisplayName>[AUTHOR]</PublisherDisplayName>
+    <Logo>Images\Logo.png</Logo>
+    <Description>[APP_DESC]</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="[APP_ID]" [ENTRY]>
+        <VisualElements 
+            DisplayName="[APP_NAME]"
+            Logo="Images\Logo.png"
+            SmallLogo="Images\SmallLogo.png"
+            Description="[APP_DESC]"
+            ForegroundText="light"
+            BackgroundColor="[COLOR]">
+            <SplashScreen Image="Images\SplashScreen.png" />
+        </VisualElements>
+    </Application>
+  </Applications>
+</Package>

@@ -1,0 +1,54 @@
+Signature-Version: 1.0
+Created-By: 11.0.18 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: eyBmpssKQRilW7GtZje1SGErVcKLs0kPQ86ckeVP+HM=
+SHA-256-Digest-Manifest-Main-Attributes: XO732tL3f/CvvR3mig3Hj2PNcsrta85
+ 3eofQTZdWj6M=
+
+Name: about.html
+SHA-256-Digest: xtfrIvSPpKsppmFHTSy0dhTuktD2VrVuBVihoxH1SaM=
+
+Name: org/eclipse/jgit/awtui/AWTPlotRenderer.class
+SHA-256-Digest: yDiueCO9HTNjpWVWJoTvL1zSqjutWW1HJJYDpuCEzHA=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$NameCellRender.class
+SHA-256-Digest: oCfmw58UR8OUvcUbWaT3Cia5YYIoZFf3JIXQrU+Yk2Y=
+
+Name: org/eclipse/jgit/awtui/UIText.properties
+SHA-256-Digest: iF4XHpEtcZPonzhgcxkb+kyuE70GxW9xmgukZSndvas=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$GraphCellRender.class
+SHA-256-Digest: 9iLOTDW/FEsDxri6WdXmp314F6LqHT38cXBt4ameKrk=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane.class
+SHA-256-Digest: VYj9TwNtg0/FJJ3HTCEBkm9/f2kS7HnNSmG2/SJEHOI=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$CommitTableModel.class
+SHA-256-Digest: N4eSV8TStC8QfZGeSnZMmaW+ojVHhXZNqRLIpH1uduc=
+
+Name: org/eclipse/jgit/awtui/SwingCommitList$SwingLane.class
+SHA-256-Digest: qUISJFVAd/DMbySwo0GkpUQmKEMcXcfCawzNZ+w/j+k=
+
+Name: org/eclipse/jgit/awtui/AwtCredentialsProvider.class
+SHA-256-Digest: XRh+Zn9Hnbnecs3ed6xp4Zx+bJXRjKCZDOsUWyQ5K3M=
+
+Name: META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.xml
+SHA-256-Digest: nV9MHDJTb8wuqJAnzBTEB0I5tRythaxpgH2mBPTtung=
+
+Name: META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.properties
+SHA-256-Digest: 5ENH2LVxr4deELc/2pCmtBwqhZ+t0ZiB29yQs1b7OzY=
+
+Name: org/eclipse/jgit/awtui/UIText.class
+SHA-256-Digest: tBRdA8552QK4WndMJjezagozU405frqRJd5pOTYohVU=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$DateCellRender.class
+SHA-256-Digest: NiD5SONGJeC8jDt0SvWexAEKBzT6BoLZ4LWbJt8ZbpQ=
+
+Name: org/eclipse/jgit/awtui/SwingCommitList.class
+SHA-256-Digest: ca8regjyfpY+P2VLicCype0XIgNL/T5jNBhtQ3HuBLI=
+
+Name: org/eclipse/jgit/awtui/AwtAuthenticator.class
+SHA-256-Digest: d3wI5QujZo8ycU8DlFlf2D/zh4eXGh1q/L/beuJu8XU=
+
+Name: plugin.properties
+SHA-256-Digest: 0odiH7asCGywmlK9DjYoXvIAUQsQjLTRFM30krBbiX4=
+

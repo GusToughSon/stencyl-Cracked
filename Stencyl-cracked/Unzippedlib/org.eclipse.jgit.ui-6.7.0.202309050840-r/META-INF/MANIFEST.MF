@@ -1,0 +1,71 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.3.0
+Build-Jdk-Spec: 17
+Implementation-Title: JGit org.eclipse.jgit.ui
+Implementation-Vendor: Eclipse.org - JGit
+Implementation-Vendor-Id: org.eclipse.jgit
+Implementation-Vendor-URL: https://www.eclipse.org/jgit/
+Implementation-Version: 6.7.0.202309050840-r
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Automatic-Module-Name: org.eclipse.jgit.ui
+Bundle-SymbolicName: org.eclipse.jgit.ui
+Bundle-Version: 6.7.0.202309050840-r
+Bundle-Vendor: %Bundle-Vendor
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: org.eclipse.jgit.awtui;version="6.7.0"
+Import-Package: org.eclipse.jgit.errors;version="[6.7.0,6.8.0)",org.ecli
+ pse.jgit.lib;version="[6.7.0,6.8.0)",org.eclipse.jgit.nls;version="[6.7
+ .0,6.8.0)",org.eclipse.jgit.revplot;version="[6.7.0,6.8.0)",org.eclipse
+ .jgit.revwalk;version="[6.7.0,6.8.0)",org.eclipse.jgit.transport;versio
+ n="[6.7.0,6.8.0)",org.eclipse.jgit.util;version="[6.7.0,6.8.0)"
+
+Name: about.html
+SHA-256-Digest: tXw78G8VFj0RsRqovlmhpq1H3EogbzKs4hxxr9AUtAY=
+
+Name: org/eclipse/jgit/awtui/AWTPlotRenderer.class
+SHA-256-Digest: Bxi+UanZ3smphuS2Dg0gmN3ddeH+h2KrngYAdnnAY+E=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$NameCellRender.class
+SHA-256-Digest: E1KGxQ6otR2A5XXewM53NXKjUUPVyLXZ2ao9T+C9/QI=
+
+Name: org/eclipse/jgit/awtui/UIText.properties
+SHA-256-Digest: l8RhfWMIZI3lhnmMtjcecLINjaH2Yva+DQUTAhQRBx8=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$GraphCellRender.class
+SHA-256-Digest: wZ8GpqUN7XCGiaSXyuvAUKqhuxWRYlHydoXpN6FOuwI=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane.class
+SHA-256-Digest: 2ssQhGZF917rrxo4eJq3nIbIknAyD17WdiEOv6+Qkc0=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$CommitTableModel.class
+SHA-256-Digest: QzWSSCIhKJf3lKUi3wVLmIT+NtVM+tQX/ThxS24DJXw=
+
+Name: org/eclipse/jgit/awtui/SwingCommitList$SwingLane.class
+SHA-256-Digest: LlzXZGHQ2F4fuvGlefJZ1JVUB1+06sO5R5EjVWYSA50=
+
+Name: org/eclipse/jgit/awtui/AwtCredentialsProvider.class
+SHA-256-Digest: G270p10ca7zKamvn931VXWa66n9SC1Vte+gN6R5fmxA=
+
+Name: META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.xml
+SHA-256-Digest: pe38w2geF8X1c3Gdq3meZhgqJnsrXOjOfPTfSJaiNd4=
+
+Name: META-INF/maven/org.eclipse.jgit/org.eclipse.jgit.ui/pom.properties
+SHA-256-Digest: 5i7yHC20MUUAmHCT82qyWecabTEfGsuK49d6NHUmp2Q=
+
+Name: org/eclipse/jgit/awtui/UIText.class
+SHA-256-Digest: eB0Cmqr8eQrR9nqnOlf3RzV/yvhaykV5lApm5UtSbVQ=
+
+Name: org/eclipse/jgit/awtui/CommitGraphPane$DateCellRender.class
+SHA-256-Digest: 0LKCxpxXHKfkbFKtdRyzTkoFY3Twxq+JrL9XfQ5Icws=
+
+Name: org/eclipse/jgit/awtui/SwingCommitList.class
+SHA-256-Digest: m+bu+xOhjpSz8KbHGXsATa9WEnPRsz/nDG3oZ0/TL3I=
+
+Name: org/eclipse/jgit/awtui/AwtAuthenticator.class
+SHA-256-Digest: PTtbXIRfq51BGF3+DVxxtdmAsFga3/+Y0Hb5Z/4eGE0=
+
+Name: plugin.properties
+SHA-256-Digest: 76A/Z6hMD0mrRcC6FDD0YgxAE3ffhiLkk5Agn8uvNJc=
+

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 10.0-b22 (Sun Microsystems Inc.)
+Company: JIDE Software, Inc.
+Build-Date: 20080730
+Build-Time: 1412
+Jide-Version: 2.2.12
+Class-Path: jide-common.jar
+
+Name: com/jidesoft/pane/CollapsiblePane.class
+Java-Bean: True
+
+Name: com/jidesoft/pane/CollapsiblePanes.class
+Java-Bean: True
+
+Name: com/jidesoft/pane/FloorTabbedPane.class
+Java-Bean: True
+
+Name: com/jidesoft/pane/OutlookTabbedPane.class
+Java-Bean: True
+
+Name: com/jidesoft/document/DocumentPane.class
+Java-Bean: True
+
+Name: com/jidesoft/status/StatusBar.class
+Java-Bean: True
+
+Name: com/jidesoft/tooltip/BalloonTip.class
+Java-Bean: True
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	
+	<section id="defines">
+		
+		<set name="ANDROID_SETUP" value="true" />
+		<set name="ANDROID_INSTALL_LOCATION" value="auto" />
+		<set name="ANDROID_NDK_ROOT" value="[ANDROID_NDK]" />
+		<set name="ANDROID_SDK" value="[ANDROID_SDK]" />
+		<set name="JAVA_HOME" value="[JAVA_HOME]" />
+		
+		[PROXY]
+
+		<set name="PATH_CLOSURE_COMPILER" value="[PATH_CLOSURE_COMPILER]" />
+		<set name="PATH_NODEJS_BIN" value="[PATH_NODEJS_BIN]" />
+		<set name="PATH_WEBIFY" value="[PATH_WEBIFY]" />
+		<set name="PATH_IOS_DEPLOY" value="[PATH_IOS_DEPLOY]" />
+		<set name="PATH_YUI_COMPRESSOR" value="[PATH_YUI_COMPRESSOR]" />
+		<set name="PATH_HASHLINK" value="[PATH_HASHLINK]" />
+	
+	</section>
+	
+</config>

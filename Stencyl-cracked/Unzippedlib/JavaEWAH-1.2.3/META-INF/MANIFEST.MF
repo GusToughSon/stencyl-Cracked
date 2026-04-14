@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1678288379960
+Build-Jdk: 16.0.2
+Built-By: lemire
+Bundle-Description: The bit array data structure is implemented in Java 
+ as the BitSet class. Unfortunately, this fails to scale without compres
+ sion.  JavaEWAH is a word-aligned compressed variant of the Java bitset
+  class. It uses a 64-bit run-length encoding (RLE) compression scheme. 
+  The goal of word-aligned compression is not to achieve the best compre
+ ssion, but rather to improve query processing time. Hence, we try to sa
+ ve CPU cycles, maybe at the expense of storage. However, the EWAH schem
+ e we implemented is always more efficient storage-wise than an uncompre
+ ssed bitmap (implemented in Java as the BitSet class). Unlike some alte
+ rnatives, javaewah does not rely on a patented scheme.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: JavaEWAH
+Bundle-SymbolicName: com.googlecode.javaewah.JavaEWAH
+Bundle-Version: 1.2.3
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.googlecode.javaewah;uses:="com.googlecode.javaewah.s
+ ymmetric";version="1.2.3",com.googlecode.javaewah.datastructure;uses:="
+ com.googlecode.javaewah";version="1.2.3",com.googlecode.javaewah.symmet
+ ric;uses:="com.googlecode.javaewah,com.googlecode.javaewah.datastructur
+ e";version="1.2.3"
+Import-Package: com.googlecode.javaewah,com.googlecode.javaewah.datastru
+ cture
+Tool: Bnd-1.50.0
+Multi-Release: true
+

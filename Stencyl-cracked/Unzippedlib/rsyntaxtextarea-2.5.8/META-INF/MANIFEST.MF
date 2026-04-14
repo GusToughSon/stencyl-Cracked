@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Export-Package: org.fife.io;version="2.5.8";uses:="javax.swing.text",o
+ rg.fife.print;version="2.5.8";uses:="javax.swing.text",org.fife.ui.rs
+ yntaxtextarea;version="2.5.8";uses:="javax.swing,javax.swing.event,ja
+ vax.swing.plaf,javax.swing.text,org.fife.ui.rsyntaxtextarea.folding,o
+ rg.fife.ui.rsyntaxtextarea.parser,org.fife.ui.rsyntaxtextarea.templat
+ es,org.fife.ui.rtextarea,org.fife.util",org.fife.ui.rsyntaxtextarea.f
+ ocusabletip;version="2.5.8";uses:="javax.swing,javax.swing.border,jav
+ ax.swing.event",org.fife.ui.rsyntaxtextarea.folding;version="2.5.8";u
+ ses:="javax.swing.text,org.fife.ui.rsyntaxtextarea",org.fife.ui.rsynt
+ axtextarea.modes;version="2.5.8";uses:="javax.swing.text,org.fife.ui.
+ rsyntaxtextarea",org.fife.ui.rsyntaxtextarea.parser;version="2.5.8";u
+ ses:="javax.swing.event,org.fife.ui.rsyntaxtextarea,org.xml.sax",org.
+ fife.ui.rsyntaxtextarea.templates;version="2.5.8";uses:="javax.swing.
+ text,org.fife.ui.rsyntaxtextarea",org.fife.ui.rtextarea;version="2.5.
+ 8";uses:="javax.swing,javax.swing.border,javax.swing.event,javax.swin
+ g.plaf,javax.swing.plaf.basic,javax.swing.text,javax.swing.undo,org.f
+ ife.ui.rsyntaxtextarea",org.fife.util;version="2.5.8"
+Bundle-Version: 2.5.8
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: rsyntaxtextarea
+Bnd-LastModified: 1441853334483
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.fifesoft.rsyntaxtextarea
+Import-Package: javax.imageio,javax.swing,javax.swing.border,javax.swi
+ ng.event,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.text,jav
+ ax.swing.text.html,javax.swing.undo,javax.xml.parsers,javax.xml.trans
+ form,javax.xml.transform.dom,javax.xml.transform.stream,org.w3c.dom,o
+ rg.xml.sax,org.xml.sax.helpers
+Specification-Title: RSyntaxTextArea
+Specification-Version: 2.5.8
+Implementation-Title: org.fife.ui
+Implementation-Version: 2.5.8
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: directory-watcher
+Implementation-Version: 0.18.0
+Specification-Vendor: io.methvin
+Specification-Title: directory-watcher
+Implementation-Vendor-Id: io.methvin
+Specification-Version: 0.18.0
+Implementation-URL: https://github.com/gmethvin/directory-watcher
+Implementation-Vendor: io.methvin
+

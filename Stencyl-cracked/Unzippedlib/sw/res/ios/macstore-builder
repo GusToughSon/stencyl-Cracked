@@ -1,0 +1,26 @@
+#!/bin/sh
+
+NAME="$1"
+
+CERTLOCATION="$PWD/Cert.p12"
+CERTLOCATION2="$PWD/CertInstaller.p12"
+
+KEYCHAINLOCATION="$PWD/stencyl-mac.keychain"
+APPLOCATION="$PWD/$NAME.app"
+PKGLOCATION="$PWD/$NAME.pkg"
+
+security create-keychain -p "$CERTPASSWORD" "$KEYCHAINLOCATION"
+security unlock-keychain -p "$CERTPASSWORD" "$KEYCHAINLOCATION"
+security import "$CERTLOCATION" -P "$CERTPASSWORD" -k "$KEYCHAINLOCATION" -T /usr/bin/codesign
+PROFILENAME=`security find-identity -p codesigning -v "$KEYCHAINLOCATION" | sed -n 's/\(.*\)\"\(.*\)\"\(.*\)/\2/p'`
+echo $PROFILENAME
+codesign -f -v -s "$PROFILENAME" "$APPLOCATION"
+security delete-keychain "$KEYCHAINLOCATION"
+
+security create-keychain -p "$CERTPASSWORD2" "$KEYCHAINLOCATION"
+security unlock-keychain -p "$CERTPASSWORD2" "$KEYCHAINLOCATION"
+security import "$CERTLOCATION2" -P "$CERTPASSWORD2" -k "$KEYCHAINLOCATION" -T /usr/bin/codesign
+PROFILENAME=`security find-identity -p codesigning -v "$KEYCHAINLOCATION" | sed -n 's/\(.*\)\"\(.*\)\"\(.*\)/\2/p'`
+echo $PROFILENAME
+productbuild --component "$APPLOCATION" "/Applications" --sign "$PROFILENAME" "$PKGLOCATION"
+security delete-keychain "$KEYCHAINLOCATION"

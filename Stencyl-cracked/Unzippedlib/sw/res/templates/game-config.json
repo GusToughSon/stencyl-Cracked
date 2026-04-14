@@ -1,0 +1,84 @@
+{
+	"antialias": [ANTIALIAS],
+	"buildRecord": [BUILD_RECORD],
+	"buildTime": "[BUILD_TIME]",
+	"debugDraw": [SHOWDEBUG],
+	"disposeImages": [DISPOSE_IMAGES],
+	"forceHiResAssets": [FORCE_HI_RES_ASSETS],
+	"initSceneID": [STARTINGSCENE],
+	"keys": {
+		[CONTROLS]
+	},
+	"pixelsnap": [PIXELSNAP],
+	"physicsMode": "[PHYSICS]",
+	"projectName": "[PROJECT_NAME]",
+	"releaseMode": [RELEASEMODE],
+	"showConsole": [SHOWCONSOLE],
+	"stageWidth": [WIDTH],
+	"stageHeight": [HEIGHT],
+	"toolsetInterfaceHost": "[TOOLSET_INTERFACE_HOST]",
+	"toolsetInterfacePort": [TOOLSET_INTERFACE_PORT],
+
+	"config-mobile": {
+		"autorotate": [AUTOROTATE_MOBILE],
+		"gameScale": 1,
+		"landscape": [ORIENTATION_MOBILE],
+		"toolsetInterfaceHost": "[TOOLSET_INTERFACE_HOST_MOBILE]",
+
+		"config-android": {
+			"disableBackButton": [BACKBUTTON_ANDROID],
+			"scaleMode": "[SCALEMODE_ANDROID]",
+			"scales": [SCALES_ANDROID]
+		},
+		
+		"config-ios": {
+			"scaleMode": "[SCALEMODE_IOS]",
+			"scales": [SCALES_IOS]
+		}
+	},
+	
+	"config-desktop": {
+		"gameScale": [GAMESCALE_DESKTOP],
+		"scaleMode": "[SCALEMODE_DESKTOP]",
+		"scales": [SCALES_DESKTOP],
+		"startInFullScreen": [FULLSCREEN_DESKTOP]
+	},
+	
+	"config-web": {
+		"gameScale": [GAMESCALE_WEB],
+		"startInFullScreen": [FULLSCREEN_WEB],
+		"scales": [SCALES_WEB],
+		"lockURL": "[LOCK_URL]",
+
+		"preloader": {
+			"authorURL": "[AUTHOR_URL]",
+			"backgroundColor": [BACKGROUND_COLOR],
+			"backgroundImage": "[BACKGROUND_IMAGE]",
+			"badgeImage": "[BADGE_IMAGE]",
+			"borderThickness": [BORDER_THICKNESS],
+			"borderColor": [BORDER_COLOR],
+			"barLocation": [BAR_LOCATION],
+			"barWidth": [BAR_WIDTH],
+			"barHeight": [BAR_HEIGHT],
+			"barColor": [BAR_COLOR],
+			"barOffsetX": [BAR_OFFSETX],
+			"barOffsetY": [BAR_OFFSETY],
+			"barBackgroundColor": [BAR_BACKGROUND_COLOR]
+		},
+
+		"config-flash": {
+			"scaleMode": "[SCALEMODE_FLASH]",
+			"swfPreloader": {
+				"swfLoc": "[SWF_LOC]",
+				"swfX": [SWF_X],
+				"swfY": [SWF_Y],
+				"swfWidth": [SWF_WIDTH],
+				"swfHeight": [SWF_HEIGHT]
+			}
+		},
+		
+		"config-html5": {
+			"toolsetInterfaceHost": "[TOOLSET_INTERFACE_HOST_MOBILE]"
+		}
+	}
+}

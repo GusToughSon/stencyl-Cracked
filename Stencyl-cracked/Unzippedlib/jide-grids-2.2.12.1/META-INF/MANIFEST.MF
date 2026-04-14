@@ -1,0 +1,112 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 10.0-b22 (Sun Microsystems Inc.)
+Company: JIDE Software, Inc.
+Build-Date: 20080730
+Build-Time: 1412
+Jide-Version: 2.2.12
+Class-Path: jide-common.jar hssf.jar
+
+Name: com/jidesoft/combobox/ColorComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/ColorChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/DateComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/DateChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/CalendarViewer.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/MonthComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/MonthChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FileChooserComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FileChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FileNameChooserComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FileNameChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FontComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/FontChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/ListComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/ListChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/TreeComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/TreeChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/TableChooserPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/TableComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/StringArrayComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/StringArrayPopupPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/MultilineStringComboBox.class
+Java-Bean: True
+
+Name: com/jidesoft/combobox/MultilineStringPopupPanel.class
+Java-Bean: True
+
+Name: com/jidesoft/field/IPTextField.class
+Java-Bean: True
+
+Name: com/jidesoft/list/QuickListFilterField.class
+Java-Bean: True
+
+Name: com/jidesoft/tree/QuickTreeFilterField.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/QuickTableFilterField.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/JideTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/CellStyleTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/CellSpanTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/SortableTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/PropertyTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/TreeTable.class
+Java-Bean: True
+
+Name: com/jidesoft/grid/HierarchicalTable.class
+Java-Bean: True
+
+

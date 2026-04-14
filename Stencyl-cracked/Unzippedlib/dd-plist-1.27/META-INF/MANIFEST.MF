@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Description: This library enables Java applications to work wit
+ h property lists in various formats.Supported formats for reading and
+  writing are OS X/iOS binary and XML property lists.ASCII property li
+ sts are also supported.The library also provides access to basic func
+ tions of NeXTSTEP/Cocoa classes likeNSDictionary, NSArray, etc.
+Bundle-License: http://opensource.org/licenses/mit
+Bundle-SymbolicName: com.googlecode.plist.dd-plist
+Built-By: daniel
+Bnd-LastModified: 1681149326890
+Bundle-ManifestVersion: 2
+Bundle-DocURL: http://www.github.com/3breadt/dd-plist
+Import-Package: javax.xml.parsers,org.w3c.dom,org.xml.sax
+Tool: Bnd-2.1.0.20130426-122213
+Export-Package: com.dd.plist;uses:="javax.xml.parsers,org.w3c.dom,org.
+ xml.sax";version="1.27.0"
+Bundle-Name: dd-plist
+Bundle-Version: 1.27.0
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_342
+
